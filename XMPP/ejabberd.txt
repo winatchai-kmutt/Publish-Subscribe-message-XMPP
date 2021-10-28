@@ -1,0 +1,3 @@
+sudo docker run --name ejabberd -p 5222:5222 ejabberd/ecs
+sudo docker exec -it ejabberd bin/ejabberdctl register admin localhost password
+sudo docker exec -it ejabberd bin/ejabberdctl register john localhost password
